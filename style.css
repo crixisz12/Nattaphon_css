@@ -1,3 +1,7 @@
+body {
+    padding: 0%;
+    padding: 0%;
+}
 h2 {
     color: #67ff7c;
 }
@@ -77,4 +81,32 @@ div{
     display: inline-block;
     font: 20px;
     padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: #ff3b3b;
+    transition: width 1s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: rgb(2, 255, 108);
+}
+.button{
+    background-color: khaki;
+    color: blueviolet;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
 }
